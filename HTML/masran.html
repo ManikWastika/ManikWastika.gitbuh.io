@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Masukan Dan saran</title>
+        <meta name="description" content="masukan saran">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../CSS/masranstyle.css">
+    </head>
+    <body>
+        <div class="hero">
+			<nav>
+				<h2 class="logo">INDO<span>NESIA</span></h2>
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="warbud.html">Warisan Budaya</a></li>
+						<li><a href="#" class="active">Masukan, Saran</a></li>
+						<li><a href="https://www.youtube.com/watch?v=7cFusMKX-Bs">Hubungi</a></li>
+					</ul>
+			</nav>
+        
+
+            <div class="pembungkus">
+                <div class="contener">
+                    <h1>Masukan Data Dan Saran</h1>
+                    <form name="myform" action="" onsubmit="return validasi()" method="post">
+                        <table>
+                            <tr>
+                                <td>Nama Lengkap</td>
+                                <td>:</td>
+                                <td><input type="text" name="nama" class="size " placeholder="Masukan Nama"></td>
+                            </tr>
+                            <tr>
+                                <td>Umur</td>
+                                <td>:</td>
+                                <td><input type="text" name="umur" class="size" placeholder="Masukan Umur"></td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>:</td>
+                                <td><input type="text" name="email" class="size" placeholder="Masukan Email"></td>
+                            </tr>
+                            <tr>
+                                <td>Saran</td>
+                                <td>:</td>
+                                <td><textarea name="saran" class="saran" placeholder="Ketik Saran"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Jenis Kelamin</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="radio" name="JK" value="lakilaki">Laki-Laki  
+                                    <input type="radio" name="JK" class="ceuwe" value="perempuan">Perempuan
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <button type="submit" name="kirim" value="submit" onclick="hai()">Serahkan Saran</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        
+        <section class="about">
+            <div class="main">
+                <div class="tentangtext">
+                    <h2>Terima Kasih <br> atas Saran yang anda Berikan</h2>
+                    <h5><span></span></h5>
+                    <p>dengan demikian saya sudah menyelesaikan UTS Desain Web 2022</p>
+                </div>    
+            </div>
+            <div class="alagin">
+                <a class="button-two" href="home.html">Home</a>
+            </div>    
+        </section>
+
+        <footer>
+            <p>sekian pembuatan web dari saya, jika ada masalah tolong hubungi saya di</p>
+            <div class="social">
+                <a href=" https://www.instagram.com/invites/contact/?i=8329lvzocuhn&utm_content=omlo2rb" class="insta"><img src="../IMG/instagram.png" alt=""></a>
+                <a href="https://www.whatsapp.com/download/" class="wa"><img src="../IMG/whatshap.png" alt=""></a>
+                <a href="https://discord.com/" class="dc"><img src="../IMG/discord.png" alt=""></a>
+            </div>
+            <p class="end">©CopyRight2022 By I Komang Manik Wastika</p>
+        </footer>
+        <script>
+        
+            function hai() {
+                var nama = document.getElementById("nama").value;
+                var umur = document.getElementById("umur").value;
+
+                alert(nama + umur);
+            }
+
+        </script>
+    </body>
+</html>

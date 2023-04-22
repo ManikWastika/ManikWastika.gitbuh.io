@@ -1,0 +1,240 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.hero{
+    height: 110vh;
+	width: 100%;
+	background-image: url(../IMG/kecak.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.active {
+	color: red;
+}
+span{
+	color: RED;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+	
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: red;
+	transition: all .4s ease-in-out;
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 52px;
+    text-align: center;
+}
+
+.pembungkus {
+    width: 40%;
+    margin: auto;
+    color: white;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0,0.7);
+}
+.contener {
+    padding: 80px;
+    margin-top: 80px;
+}
+table {
+    margin: auto;
+    padding-bottom: 50px;
+}
+table td {
+    padding: 5px;
+}
+::placeholder {
+    padding-left: 5px;
+}
+.size {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    color: white;
+    border: black;
+}
+.saran {
+    width: 300px;
+    height: 70px;
+    padding-top: 10px;
+    background: rgb(255, 255, 255);
+    color: white;
+    border: black;
+}
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color:red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: .4s;
+}
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color:red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: .4s;
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid red;
+	cursor: pointer;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+	padding-top: 150px;
+}
+.insta img {
+	width: 30px;
+	height: 30px;
+}
+.wa img {
+	width: 30px;
+	height: 30px;
+}
+.dc img {
+	width: 30px;
+	height: 30px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  red;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color: red;
+	bottom: 35px;
+	font-size: 14px; 
+}
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width: 500px;
+	border-radius: 9px;
+}
+.tentangtext{
+	width: 9000px;
+    text-align: center;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.tentangtext h2{
+	color: red;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.tentangtext h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.tentangtext p{
+	color: rgb(255, 255, 255);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.button-two{
+	background-color:red;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+    margin-bottom: 20px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.button-two:hover{
+	background-color: transparent;
+	border: 2px solid red;
+	cursor: pointer;
+}
+.alagin {
+    text-align: center;
+}

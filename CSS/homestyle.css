@@ -1,0 +1,299 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../IMG/membatik.jpg);
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.active {
+	color: red;
+}
+span{
+	color: RED;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+	
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: red;
+	transition: all .4s ease-in-out;
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+.poto img {
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	transition: all .4s ease-in-out;
+	
+}
+.poto img:hover {
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+	
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 52px;
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4{
+	color: rgba(255, 255, 255, 0.8);
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width: 500px;
+	border-radius: 9px;
+}
+.tentangtext{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.tentangtext h2{
+	color: red;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.tentangtext h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.tentangtext p{
+	color: rgb(255, 255, 255);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.service{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: rgb(255, 255, 255);
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.keris img {
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+}
+.angklung img {
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+}
+.batik img {
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+}
+h5{
+	color: red;
+	font-size: 23px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.pra p {
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid red;
+	cursor: pointer;
+}
+.thenext {
+	text-align: center;
+	padding-top: 60px;
+}
+.thenext p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+	padding-bottom: 30px;
+}
+.thenext .button-two{
+	background-color:red;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.thenext .button-two:hover{
+	background-color: transparent;
+	border: 2px solid red;
+	cursor: pointer;
+}
+.contact-me{
+	width: 100%;
+	height: 290px;
+	background: #191919;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.p1 {
+	color: rgb(255, 0, 0);
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.p2 {
+	width: 1000px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+	padding-top: 150px;
+}
+.insta img {
+	width: 30px;
+	height: 30px;
+}
+.wa img {
+	width: 30px;
+	height: 30px;
+}
+.dc img {
+	width: 30px;
+	height: 30px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  red;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color: red;
+	bottom: 35px;
+	font-size: 14px; 
+}
