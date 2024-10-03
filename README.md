@@ -1,1 +1,1 @@
-# ManikWastika.gitbuh.io
+# ManikWastika
